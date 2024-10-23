@@ -1,0 +1,121 @@
+
+.Sobre{
+
+    .cabecalho{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3f3f3;
+        height: 110PX;
+
+        h1{
+            margin: 0px;
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+        }
+        .logo{
+            width: 75px;
+        }
+
+    }
+
+    .contado{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px;
+
+    }
+
+    .titulo{
+        text-align: center
+        
+    }
+    .repertorio{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .brincadeiras{
+            border: solid;
+            border-radius: 20px;
+            width: 300px;
+            background-image: linear-gradient(to top, #F2FF7D, #fdfdfd);
+            -webkit-background-clip: se;
+            -webkit-text-fill-color: transparent;
+            
+            h2{
+                text-align: center;
+            }
+          
+        }
+    
+        .baladinha{
+            border: solid;
+            border-radius: 20px;
+            width: 300px;
+            text-align: center;
+            background-image: linear-gradient(to top, #4ECAFF, #fdfdfd);
+            -webkit-background-clip: se;
+            -webkit-text-fill-color: transparent
+            
+    
+          
+        }
+    
+        .premios{
+    
+            border: solid;
+            border-radius: 20px;
+            width: 300px;
+            background-image: linear-gradient(to top, #81FF71, #fdfdfd);
+            -webkit-background-clip: se;
+            -webkit-text-fill-color: transparent;
+    
+            h2{
+                text-align: center;
+            }
+        }
+    
+    
+        
+    
+    }
+    
+    .s2{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+        .gincanas{
+    
+            border: solid;
+            border-radius: 20px;
+            width: 300px;
+            background-image: linear-gradient(to top, #1668FF, #fdfdfd);
+            -webkit-background-clip: se;
+            -webkit-text-fill-color: transparent;
+    
+            h2{
+                text-align: center;
+            }
+        }
+    
+        .oficinas{
+    
+            border: solid;
+            border-radius: 20px;
+            width: 300px;
+            background-image: linear-gradient(to top, #FF8737, #fdfdfd);
+            -webkit-background-clip: se;
+            -webkit-text-fill-color: transparent;
+    
+            h2{
+                text-align: center;
+            }
+        }
+    }
+
+
+
+}

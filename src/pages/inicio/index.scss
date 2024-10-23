@@ -1,0 +1,75 @@
+.Inicio{
+    h1{
+        text-align: center;
+        background: linear-gradient(90deg, #ff550092, #01a6ff); /* Altere as cores conforme necessário */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 48px;
+    }
+
+    .titulo{
+        h1{
+            
+
+        }
+    }
+
+    .contado{
+        display: flex;
+        justify-content: space-between;
+        margin: 60px;
+
+        p{
+            
+        }
+    }
+
+    .sessao{
+        
+        margin-left: 250px;
+        
+        width: 1100px;
+        background-color: rgb(243, 243, 243);
+        p{
+            color: black;
+            font-size: 20px;
+        }
+    }
+
+    .imagens{
+        display: flex;
+        justify-content: space-evenly;
+        .s1{
+            width: 250px;
+            height: 200px;
+            border: solid;
+            background-color: grey;
+            gap: 50px;
+            margin-top: 100px;
+        }
+
+        .s2{
+            width: 250px;
+            height: 200px;
+            border: solid;
+            background-color: grey;
+            margin-top: 100px;
+        }
+
+        .s3{
+            width: 250px;
+            height: 200px;
+            border: solid;
+            background-color: grey;
+            margin-top: 100px;
+        }
+
+        .s4{
+            width: 250px;
+            height: 200px;
+            border: solid;
+            background-color: grey;
+            margin-top: 100px;
+        }
+    }
+}
