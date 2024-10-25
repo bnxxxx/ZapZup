@@ -17,7 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>  
-        <Route path='/inicio' element={<Inicio/>} />
+        <Route path='/' element={<Inicio/>} />
         <Route path='/Sobre' element={<Sobre/>} />
         
         

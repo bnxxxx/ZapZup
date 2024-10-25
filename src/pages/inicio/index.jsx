@@ -11,17 +11,24 @@ export default function Inicio() {
 
         <div className="Inicio">
 
+            <div className="cabecalho">
 
+            <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
             <h1>Zap Zup</h1>
 
             <div className="titulo">
                 <h1>Zap Zup Recreação</h1>
             </div>
 
+            </div>
+
+
             <div className="contado">
+            <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
                 <p>11 98013-3912</p>
                 <p>@ZAPZUPRECREACAO</p>
             </div>
+            
             <div className="sessao">
                 <p>A Zap Zup é uma empresa de recreação que esta no mercado a mais de 10 anos! Temos como  alvo o publico infantil e juvenil entre
                     tanto também somos exepicionais com todos os públicos desde o infantil até o os públicos mais velhos , nos contamos  com um

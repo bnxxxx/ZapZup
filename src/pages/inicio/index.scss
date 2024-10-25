@@ -1,45 +1,55 @@
-.Inicio{
-    h1{
-        text-align: center;
-        background: linear-gradient(90deg, #ff550092, #01a6ff); /* Altere as cores conforme necessário */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 48px;
-    }
+.Inicio {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3f3f3;
+        height: 110PX;
 
-    .titulo{
-        h1{
-            
-
+        h1 {
+            margin: 0px;
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
         }
+
+        .logo {
+            width: 75px;
+        }
+
     }
 
-    .contado{
+    .titulo {
+        h1 {}
+    }
+
+    .contado {
         display: flex;
         justify-content: space-between;
         margin: 60px;
 
-        p{
-            
-        }
+        p {}
     }
 
-    .sessao{
-        
+    .sessao {
+
         margin-left: 250px;
-        
+
         width: 1100px;
         background-color: rgb(243, 243, 243);
-        p{
+
+        p {
             color: black;
             font-size: 20px;
         }
     }
 
-    .imagens{
+    .imagens {
         display: flex;
         justify-content: space-evenly;
-        .s1{
+
+        .s1 {
             width: 250px;
             height: 200px;
             border: solid;
@@ -48,7 +58,7 @@
             margin-top: 100px;
         }
 
-        .s2{
+        .s2 {
             width: 250px;
             height: 200px;
             border: solid;
@@ -56,7 +66,7 @@
             margin-top: 100px;
         }
 
-        .s3{
+        .s3 {
             width: 250px;
             height: 200px;
             border: solid;
@@ -64,7 +74,7 @@
             margin-top: 100px;
         }
 
-        .s4{
+        .s4 {
             width: 250px;
             height: 200px;
             border: solid;
