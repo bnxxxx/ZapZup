@@ -1,5 +1,6 @@
 import "./index.scss";
 
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,8 +13,16 @@ export default function Sobre() {
 
             <div className="cabecalho">
 
-            <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-            <h1>Zap Zup</h1>
+                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
+                <h1>Zap Zup</h1>
+
+                <div className="links">
+                <Link to="/Sobre" className='links' >Sobre</Link>
+                   
+                        <Link to="/" className='links' >Inicio</Link>
+                        
+                        <Link to="/agendamento" className='links' >Cental de agendamento</Link>
+                </div>
 
 
             </div>
@@ -22,8 +31,16 @@ export default function Sobre() {
             </div>
 
             <div className="contado">
-                <p>11 98013-3912</p>
-                <p>@ZAPZUPRECREACAO</p>
+                <div className="whats">
+                    <img className="logoWhats" src="/assets/img/logo-whatszap.avif" alt="" />
+                    <p>11 98013-3912</p>
+                </div>
+                <div className="insta">
+
+                    <img className="logoInsta" src="/assets/img/instagram-logo.webp" alt="" />
+                    <p>@ZAPZUPRECREACAO</p>
+
+                </div>
             </div>
 
             <div className="repertorio">
@@ -42,29 +59,29 @@ export default function Sobre() {
                     </p>
                 </div>
 
-                    <div className="premios">
-                        <h2>Premios</h2>
-                        <p> repertório também contamos com entrega de prêmios como escultura de balões todos os tipos temos uma variedade muito grande, além disso tá me fazendo colagem de tatuagem removível a base de água e pintura simples de variados tipos</p>
-                    </div>
+                <div className="premios">
+                    <h2>Premios</h2>
+                    <p> repertório também contamos com entrega de prêmios como escultura de balões todos os tipos temos uma variedade muito grande, além disso tá me fazendo colagem de tatuagem removível a base de água e pintura simples de variados tipos</p>
+                </div>
 
 
+
+            </div>
+            <div className="s2">
+
+                <div className="oficinas">
+                    <h2>Oficinas</h2>
+                    <p>Também faz parte do nosso repertório as famosas oficinas que são oficinas de criações com as crianças de diversas coisas como slime pulseira boneca ecológico e entre outros sempre muito divertido estimulando sempre o aprendizado da criança em conjunto da maneira mais divertida possível</p>
 
                 </div>
-                <div className="s2">
 
-                    <div className="oficinas">
-                        <h2>Oficinas</h2>
-                        <p>Também faz parte do nosso repertório as famosas oficinas que são oficinas de criações com as crianças de diversas coisas como slime pulseira boneca ecológico e entre outros sempre muito divertido estimulando sempre o aprendizado da criança em conjunto da maneira mais divertida possível</p>
+                <div className="gincanas">
+                    <h2>Gincanas</h2>
+                    <p>Além das brincadeiras nosso repertorio também é recheada de gincanas de diversos tipos com várias e várias brincadeiras sempre estimulando a atividade física em uma competição da maneira mais saudável possível com todas as crianças e adultos
+                    </p>
+                </div>
 
-                    </div>
 
-                    <div className="gincanas">
-                        <h2>Gincanas</h2>
-                        <p>Além das brincadeiras nosso repertorio também é recheada de gincanas de diversos tipos com várias e várias brincadeiras sempre estimulando a atividade física em uma competição da maneira mais saudável possível com todas as crianças e adultos
-                        </p>
-                    </div>
-
-               
             </div>
 
         </div>

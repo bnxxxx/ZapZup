@@ -8,6 +8,7 @@
         align-items: center;
         background-color: #f3f3f3;
         height: 110PX;
+        justify-content: space-between;         
 
         h1{
             margin: 0px;
@@ -20,17 +21,49 @@
             width: 75px;
         }
 
+        .links{
+            display: flex;
+            align-items: center;
+            margin: 30px;
+            justify-content: space-evenly;
+            width: 100%;
+        }
+        
+
     }
 
     .contado{
         display: flex;
         justify-content: space-between;
         margin: 60px;
+        margin-top: 70px;
+
+        .whats{
+            display:flex ;
+        }
+
+        .insta{
+            display:flex ;
+        }
+
+        p {}
+
+        .logoWhats{
+            width: 50px;
+            height: 50px;
+        }
+
+        
+        .logoInsta{
+            width: 50px;
+            height: 50px;
+        }
 
     }
 
     .titulo{
-        text-align: center
+        text-align: center;
+        margin-top: 90px;
         
     }
     .repertorio{
