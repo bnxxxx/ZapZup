@@ -1,0 +1,30 @@
+.cabecalho{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f3f3;
+    height: 110PX;
+    justify-content: space-between;         
+
+    h1{
+        margin: 0px;
+        background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+    }
+    .logo{
+        width: 75px;
+    }
+
+    .links{
+        display: flex;
+        align-items: center;
+        margin: 30px;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+
+}

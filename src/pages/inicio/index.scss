@@ -36,6 +36,8 @@
         align-items: center;
         justify-content: space-evenly;
         // padding: 0 5%;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
     }
 
     .titulo {
@@ -137,6 +139,7 @@
         align-items: center;
         background-color: #f3f3f3;
         // height: 110PX;
+    }
 
 
         h1 {
@@ -151,5 +154,22 @@
             width: 75px;
         }
 
-    }
+.container{
+
+    background-image: url('https://cdn.discordapp.com/attachments/1239531615596707891/1300529837114392716/fun.jpg?ex=67212c4b&is=671fdacb&hm=309db6bc3931f9b0bd266c1811e675260534a09090ada234075f1472ff606a5b&');
+    background-color:tra;
+
+
+}
+
+.fotos{
+    margin-left: 130px;
+    width: 50%;
+}
+
+.t1{
+    text-align: center;
+}
+
+
 }

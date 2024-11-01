@@ -24,9 +24,11 @@
         .links{
             display: flex;
             align-items: center;
-            margin: 30px;
+            margin: 20px;
             justify-content: space-evenly;
             width: 100%;
+            font-size: 25px;
+            color: black;
         }
         
 
@@ -70,44 +72,72 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        .brincadeiras{
-            border: solid;
+        .card1{
+          
             border-radius: 20px;
             width: 300px;
+            text-align: center;
             background-image: linear-gradient(to top, #F2FF7D, #fdfdfd);
             -webkit-background-clip: se;
             -webkit-text-fill-color: transparent;
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            .card1:hover {
+                transform: translateY(-10px); /* Sobe 10px ao passar o mouse */
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra */
+              }
             
             h2{
                 text-align: center;
             }
+
+            .foto{
+                width: 200px;
+                height: 150px;
+            }
           
         }
     
-        .baladinha{
-            border: solid;
+        .card2{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
             border-radius: 20px;
             width: 300px;
             text-align: center;
             background-image: linear-gradient(to top, #4ECAFF, #fdfdfd);
             -webkit-background-clip: se;
             -webkit-text-fill-color: transparent
-            
+
+             h2{
+                text-align: center;
+            }
+
+            .foto{
+                width: 200px;
+                height: 150px;
+
+            }
     
           
         }
     
-        .premios{
+        .card3{
     
-            border: solid;
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
             border-radius: 20px;
             width: 300px;
+            text-align: center;
             background-image: linear-gradient(to top, #81FF71, #fdfdfd);
             -webkit-background-clip: se;
             -webkit-text-fill-color: transparent;
     
             h2{
                 text-align: center;
+            }
+
+            .foto{
+                width: 200px;
+                height: 150px;
             }
         }
     
@@ -120,11 +150,12 @@
         display: flex;
         justify-content: space-evenly;
         margin: 50px;
-        .gincanas{
-    
-            border: solid;
+        .card4{
+            
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
             border-radius: 20px;
             width: 300px;
+            text-align: center;
             background-image: linear-gradient(to top, #1668FF, #fdfdfd);
             -webkit-background-clip: se;
             -webkit-text-fill-color: transparent;
@@ -132,19 +163,29 @@
             h2{
                 text-align: center;
             }
+
+            .foto{
+                width: 200px;
+                height: 150px;
+            }
         }
     
-        .oficinas{
-    
-            border: solid;
+        .card5{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
             border-radius: 20px;
             width: 300px;
+            text-align: center;
             background-image: linear-gradient(to top, #FF8737, #fdfdfd);
             -webkit-background-clip: se;
             -webkit-text-fill-color: transparent;
     
             h2{
                 text-align: center;
+            }
+
+            .foto{
+                width: 200px;
+                height: 150px;
             }
         }
     }
