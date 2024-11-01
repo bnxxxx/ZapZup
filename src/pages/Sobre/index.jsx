@@ -11,37 +11,12 @@ export default function Sobre() {
 
         <div className="Sobre">
 
-            <div className="cabecalho">
-
-                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-                <h1>Zap Zup</h1>
-
-                <div className="links">
-                    <Link to="/Sobre" className='links' >Sobre</Link>
-
-                    <Link to="/" className='links' >Inicio</Link>
-
-                    <Link to="/agendamento" className='links' >Cental de agendamento</Link>
-                </div>
-
-
-            </div>
+           
             <div className="titulo">
                 <h1>Agende já sua festa!!!</h1>
             </div>
 
-            <div className="contado">
-                <div className="whats">
-                    <img className="logoWhats" src="/assets/img/logo-whatszap.avif" alt="" />
-                    <p>11 98013-3912</p>
-                </div>
-                <div className="insta">
-
-                    <img className="logoInsta" src="/assets/img/instagram-logo.webp" alt="" />
-                    <p>@ZAPZUPRECREACAO</p>
-
-                </div>
-            </div>
+            
 
             <div className="repertorio">
 

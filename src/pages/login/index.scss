@@ -1,0 +1,39 @@
+body{
+ 
+   
+ 
+   
+    background-repeat: no-repeat ;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url('https://media.discordapp.net/attachments/1239531615596707891/1300503878009360515/imagem-3.jpg?ex=67245fde&is=67230e5e&hm=8cbf496771ffa90215265f052b0b47379e07c6067cbb0d29f4104641d40350c2&=&format=webp&width=438&height=585') ;
+    background-size: cover;
+    background-position: center;
+    
+ 
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 150px;
+        width: 400px;
+        height: 500px;
+        opacity: 80%;
+
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+        }
+    }
+}

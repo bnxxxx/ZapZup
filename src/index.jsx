@@ -15,6 +15,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import Agendamento from './pages/agendamento';
+import Login from './pages/login';
 
 
 
@@ -26,8 +28,9 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>  
-        <Route path='/' element={<Inicio/>} />
-        <Route path='/Sobre' element={<Sobre/>} />
+        <Route path='/' element={<Inicio/>} />z
+        <Route path='/agendamento' element={<Agendamento/>} />
+        <Route path='/login' element={<Login/>} />
         
         
         

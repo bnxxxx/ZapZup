@@ -1,0 +1,397 @@
+.agendamento{
+
+
+    background-color: b;
+    .cabecalho{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f3f3f3;
+        height: 110PX;
+        justify-content: space-between;         
+
+        h1{
+            margin: 0px;
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+        }
+        .logo{
+            width: 75px;
+        }
+
+        .links{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: 25px;
+            color: black;
+        }
+        
+        
+    }
+    .titulo{
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    .contado{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+        margin-top: 0px;
+
+        .whats{
+            display:flex ;
+        }
+
+        .insta{
+            display:flex ;
+        }
+
+        p {}
+
+        .logoWhats{
+            width: 50px;
+            height: 50px;
+        }
+
+        
+        .logoInsta{
+            width: 50px;
+            height: 50px;
+        }
+
+    }
+
+    .pacotes{
+
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0px;
+        padding: 0px;
+
+        h1{
+            margin-bottom: 30px;
+        }
+        
+        .classico{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
+            width: 280px;
+            height: 180px;
+            padding: 10px;
+            background: linear-gradient(45deg, #95FF8F, #4ECAFF); 
+
+            h1{
+                color: #1240F4;
+            }
+
+            p{
+                font-size: 20px;
+            }
+
+            &:hover {
+                scale: 110%;
+                transition: 0.7s;
+                }
+            
+            .preco{
+                margin-left: 180px;
+                margin-bottom: 40 px;
+                width: 100px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                box-shadow: 0 4px 8px rgba(0, 0, 0,);
+                border-radius: 30px;
+                background-color: #1240F4;
+
+
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+
+        }
+      
+        .simples{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
+            width: 280px;
+            height: 180px;
+            padding: 10px;
+            background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+
+            h1{
+                color: #1240F4;
+            }
+            p{
+                font-size: 20px;
+            }
+
+
+
+            &:hover {
+                scale: 110%;
+                transition: 0.7s;
+                }
+            
+            .preco{
+                margin-left: 180px;
+                margin-bottom: 40 px;
+                width: 100px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                box-shadow: 0 4px 8px rgba(0, 0, 0,);
+                border-radius: 30px;
+                background-color: #1240F4;
+
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .extra{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
+            width: 280px;
+            height: 180px;
+            padding: 10px;
+            background: linear-gradient(45deg, #95FF8F, #4ECAFF); 
+
+            h1{
+                color: #1240F4;
+            }
+
+            p{
+                font-size: 20px;
+            }
+
+            &:hover {
+                scale: 110%;
+                transition: 0.7s;
+                }
+            
+            .preco{
+                margin-left: 180px;
+                margin-bottom: 40 px;
+                width: 100px;
+                height: 35px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                box-shadow: 0 4px 8px rgba(0, 0, 0,);
+                border-radius: 30px;
+                background-color: #1240F4;
+
+
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+
+        }
+
+        .adicionais{
+            box-shadow: 0 4px 8px rgba(0, 0, 0,);
+            width: 280px;
+            height: 180px;
+            padding: 10px;
+            background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+
+            h1{
+                color: #1240F4;
+            }
+
+            &:hover {
+                scale: 110%;
+                transition: 0.7s;
+                }
+        }
+    }
+
+    .informacoes{
+        display: flex;
+        justify-content: space-evenly;
+
+        .pessoais {
+            display: flex;                  
+            flex-direction: column;          
+            justify-content: space-evenly;   
+            align-items: center;             
+            margin: 0px;
+                             
+        }
+        
+        .pessoais .nome,
+        .pessoais .email,
+        .pessoais .telefone {
+            border: solid;
+            width: 350px;
+            border-radius: 20px;
+            padding: 10px;
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+            margin-bottom: 30px;
+            position: relative;             
+        }
+        
+        .pessoais input {
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+            
+                border: none;
+                border-bottom: 1px solid black;
+                width: 350px;
+                
+                
+        }
+
+
+        .evento {
+            display: flex;                  
+                
+            justify-content: space-evenly;   
+            align-items: center;             
+            margin: 30px;
+                             
+        }
+
+
+        
+        .evento .recreadores,
+        .evento .horario,
+        .evento .data {
+            border: solid;
+            width: 350px;
+            border-radius: 20px;
+            padding: 10px;
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+            margin-bottom: 30px;             /* Pode remover, pois o espaçamento será controlado pelo Flexbox */
+        }
+        
+        .evento input {
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+            
+            border: none;
+            border-bottom: 1px solid black;
+            width: 350px;
+        }
+
+        .titulo{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .s2{
+            display: flex;                  
+            flex-direction: column;          
+            justify-content: space-evenly;   
+            align-items: center;             
+            margin: 0px;
+                             
+        }
+        
+        .s2 .observacoes,
+        .s2 .baladinha,
+        .s2 .endereco {
+            border: solid;
+            width: 350px;
+            border-radius: 20px;
+            padding: 10px;
+            margin: 20px;
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+      
+        }
+        
+        .s2 input {
+            background: linear-gradient(45deg, #FFC17B, #FFF70B);
+            
+            border: none;
+            border-bottom: 1px solid black;
+            width: 350px;
+        }
+
+        
+        
+        
+    }
+
+
+    .rodaPe{
+        display: flex;
+        flex-direction: row;
+        gap: 20%;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        justify-content: center;
+        background-color: #f3f3f3;
+        margin-bottom: -20px;
+        padding: 20px 30px;
+        // height: 110PX;
+
+
+        .rodape-titulo{
+            align-self: center;
+        }
+
+        .contato{
+            
+        }
+
+    }
+
+    h1 {
+        margin: 0px;
+        background: linear-gradient(90deg, #f8ff1ef0, #01a6ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+    }
+
+    .logo {
+        width: 75px;
+    }
+
+    .whats{
+        display:flex ;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+
+    .insta{
+        display:flex ;
+        flex-direction: row;
+        margin-top: 5px;
+    }
+
+    p {}
+
+    .logoWhats{
+        width: 50px;
+        height: 50px;
+    }
+
+    
+    .logoInsta{
+        width: 60px;
+    }
+
+.check{
+    border: none;
+}
+
+
+}
