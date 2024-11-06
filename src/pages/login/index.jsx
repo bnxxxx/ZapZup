@@ -21,11 +21,18 @@ export default function Login() {
 
                 <div className="inputs">
 
+                <div className="email">
+                    <h2>Email</h2>
                     <input type="text" />
+                </div>
+                <div className="senha">
+
+                    <h2>Senha</h2>
                     <input type="text" />
+                </div>
 
                 </div>
-                <button>Entra</button>
+                <button className="botao">Entra</button>
             </div>
 
 

@@ -17,7 +17,7 @@ export default function Agendamento() {
                 <h2>Zap Zup</h2>
 
                 <div className="links">
-                    <Link to="/Sobre" className='links' >Sobre</Link>
+                    <Link to="/login" className='links' >Login</Link>
 
                     <Link to="/" className='links' >Inicio</Link>
 

@@ -12,13 +12,13 @@ const data = [
     { id: '1', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878009360515/imagem-3.jpg?ex=67245fde&is=67230e5e&hm=8cbf496771ffa90215265f052b0b47379e07c6067cbb0d29f4104641d40350c2&=&format=webp&width=438&height=585' },
     { id: '2', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503877656903750/imagem-2.jpg?ex=67245fde&is=67230e5e&hm=3500325b59537730a6e2a7531c3cc55152d1e3e15ed6626848127c20d9763b14&=&format=webp&width=438&height=585' },
     { id: '3', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878671798413/imagem-5.jpg?ex=67245fde&is=67230e5e&hm=637138e9af492b6367d8c1854eb8148801de32cc1aec233028b717c5951cf521&=&format=webp&width=438&height=585' },
-    { id: '4', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503879376703498/imagem-7.jpg?ex=67245fdf&is=67230e5f&hm=aae6afdc97f8a21a0f7485cc217dfaf852bbc90296b4be4f04ce343d6ba25722&=&format=webp&width=666&height=585' },
-    { id: '5', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503879972163684/imagem-9.jpg?ex=67245fdf&is=67230e5f&hm=c4b79da25f4e3cccb90878e332350bb92def770fabf337cfecf3177ca788120e&=&format=webp&width=590&height=585' },
-    { id: '6', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878365745152/imagem-4.jpg?ex=67245fde&is=67230e5e&hm=199cda64cd0303f83bbabe0ff9f82ec6ccdc754616e29b1501da195a1b76b467&=&format=webp&width=438&height=585' },
-    { id: '7', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300538171850883132/brincadeira.jpg?ex=67247fcf&is=67232e4f&hm=a6a67855786b28a105dd3612dd79b239e7bcd0934dd2e2a89d063fc7f2a15b87&=&format=webp&width=602&height=585' },
-    { id: '8', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300504685224005784/imagem-11.jpg?ex=6724609f&is=67230f1f&hm=c3f1a984504af8852f0fd860a18e2f7e1ad1933413a0b5171b61bf6ae9bf5cf9&=&format=webp&width=445&height=437' },
-    { id: '9', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503879036833843/imagem-6.jpg?ex=67245fde&is=67230e5e&hm=b15b16a2c6291eb7fe2e12f391796461469859f5969bd9e6836a5866a9e41527&=&format=webp&width=438&height=585' },
-    { id: '10', image: 'https://cdn.discordapp.com/attachments/1239531615596707891/1300503877656903750/imagem-2.jpg?ex=6721141e&is=671fc29e&hm=625b8a7cd39f5c8d53e4e3d7777dcc1f0f766ed4cb7f214d5168c6fa45feca1c&' }
+    { id: '4', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321331550650389/imagem-12.jpg?ex=672b5413&is=672a0293&hm=070dc194fd6a378bfff6587e44f78cce582cd69e9ddc31b4c22de32660a6ff2f&=&format=webp&width=503&height=671' },
+    { id: '5', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303322411160305664/imagem-16.jpg?ex=672b5515&is=672a0395&hm=0410fad6f9fe196d9b1f93b916fa79972fc06a9cc89583786559e2e5d958ee70&=&format=webp&width=503&height=671' },
+    { id: '6', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878365745152/imagem-4.jpg?ex=67245fde&is=67230e5e&hm=199cda64cd0303f83bbabe0ff9f82ec6ccdc754616e29b1501da195a1b76b467&=&format=webp&width=438&height=58' },
+    { id: '7', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321334528606248/imagem-15.jpg?ex=672b5414&is=672a0294&hm=e71b6731b78cdcaf371e6cf66b8da35a22c25d892c1b95d3a49a8a33d7143e1b&=&format=webp&width=503&height=671' },
+    { id: '8', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303322412477059103/imagem-17.jpg?ex=672b5515&is=672a0395&hm=f8f3fa361d8beb66628f8aac71b050d0f794822ab2fa09d24df29ed191b64466&=&format=webp&width=503&height=671' },
+    { id: '9', image: 'https://media.discordapp.net/attachments/1239531615596707891/13033213325572874524/imagem-13.jpg?ex=672b5414&is=672a0294&hm=d4a8b7d1d8f306ca664764f4cb5aa48b29ff85e36c8613eb1089b263fc1ecb21&=&format=webp&width=503&height=671' },
+    { id: '10', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321333656059924/imagem-14.jpg?ex=672b5414&is=672a0294&hm=05c174c8634f985814bf9c519e83f16a9506db36f01a79c6bcf5838fdb02ef1f&=&format=webp&width=503&height=671' }
 ];
 
 
@@ -46,7 +46,7 @@ export default function Inicio() {
 
 
 
-            <div className="titulo">
+            <div className="titulo">                                                                                                                                                                    
                 <h2>Zap Zup Recreação</h2>
             </div>
 

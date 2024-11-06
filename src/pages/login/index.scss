@@ -15,7 +15,7 @@ body{
     background-image: url('https://media.discordapp.net/attachments/1239531615596707891/1300503878009360515/imagem-3.jpg?ex=67245fde&is=67230e5e&hm=8cbf496771ffa90215265f052b0b47379e07c6067cbb0d29f4104641d40350c2&=&format=webp&width=438&height=585') ;
     background-size: cover;
     background-position: center;
-    
+    backdrop-filter: 50%;
  
 
     .container{
@@ -28,12 +28,23 @@ body{
         margin-top: 150px;
         width: 400px;
         height: 500px;
-        opacity: 80%;
+        opacity: 70%;
+        text-align: center;
 
         .inputs{
             display: flex;
             flex-direction: column;
-            margin: 10px;
+            margin: 15px;
+            width: 180px;
+
+        }
+
+        .botao{
+            margin-top: 20px;
+            width: 100px;
+            background-color: rgb(0, 114, 253);
+            color: #ffff;
+
         }
     }
 }
