@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import Sobre from "../Sobre";
+import Cabecalho from "../../components";
 
 
 
@@ -28,25 +29,11 @@ export default function Inicio() {
 
     return (
 
-        <div className="Inicio">
-            <div className="cabecalho">
+        <div className="agendamento">
 
-                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-                <h1>Zap Zup</h1>
-            </div>
+            <Cabecalho />
 
-            <div className="links">
-             
-
-                <Link to="/" className='link' >Inicio</Link>
-                <Link to="/login" className="link">Login</Link>
-
-                <Link to="/agendamento" className='link' >Cental de agendamento</Link>
-            </div>
-
-
-
-            <div className="titulo">                                                                                                                                                                    
+            <div className="titulo">
                 <h2>Zap Zup Recreação</h2>
             </div>
 

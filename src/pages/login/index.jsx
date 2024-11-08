@@ -2,6 +2,7 @@ import "./index.scss"
 import { useState } from "react";
 
 import { Link } from 'react-router-dom';
+import Cabecalho from "../../components";
 
 
 export default function Login() {
@@ -11,7 +12,7 @@ export default function Login() {
 
 
         <div className="login">
-
+            <Cabecalho/>
 
             <div className="container">
                 <div className="titulo">

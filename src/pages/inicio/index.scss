@@ -7,52 +7,48 @@
         flex: 1;
     }
 
-    .cabecalho {
+    cabecalho{
+
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #f3f3f3;
         height: 110PX;
+        justify-content: space-between;         
 
-        h1 {
+        h1{
             margin: 0px;
-            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff);
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 40px;
         }
-
-        .logo {
+        .logo{
             width: 75px;
         }
 
-        
-        
-    }
-
-
-    .links {
-        display: flex;
-        align-items: center;
-       justify-content: space-evenly;
-        margin-left : 30px;
-        gap: 40px;
-        // padding: 0 5%;
-        font-size: 25px;
-        color: rgb(0, 0, 0);
-    }
-
-    .titulo {
-        h2 {
-            text-align: center;
-            font-size: 34px;
+        .links{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: 25px;
+            color: black;
         }
+        
+        
     }
-
-    .contado {
+    .titulo{
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    .contado{
         display: flex;
         justify-content: space-between;
-        margin: 70px;
+        margin: 20px;
+        margin-top: 0px;
 
         .whats{
             display:flex ;
@@ -74,6 +70,7 @@
             width: 50px;
             height: 50px;
         }
+
     }
 
     .tudo{

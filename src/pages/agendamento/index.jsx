@@ -2,6 +2,7 @@ import "./index.scss"
 import { useState } from "react";
 
 import { Link } from 'react-router-dom';
+import Cabecalho from "../../components";
 
 
 export default function Agendamento() {
@@ -11,21 +12,8 @@ export default function Agendamento() {
 
         <div className="agendamento">
 
-            <div className="cabecalho">
-
-                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-                <h2>Zap Zup</h2>
-
-                <div className="links">
-                    <Link to="/login" className='links' >Login</Link>
-
-                    <Link to="/" className='links' >Inicio</Link>
-
-                    <Link to="/agendamento" className='links' >Cental de agendamento</Link>
-                </div>
-
-
-            </div>
+        <Cabecalho/>
+            
             <div className="titulo">
                 <h2>Central de Agendamento</h2>
             </div>
@@ -170,7 +158,7 @@ export default function Agendamento() {
                                 <h2>Observações</h2>
                                 <input type="text" />
                             </div>
- 
+
                             <div className="baladinha check">
                                 <h2>Deseja baladinha</h2>
                                 <input type="checkbox" />
@@ -198,7 +186,7 @@ export default function Agendamento() {
 
                 <div className="contato">
 
-        <h1>Conheça nossas redes</h1>
+                    <h1>Conheça nossas redes</h1>
 
                     <div className="whats">
                         <img className="logoWhats" src="/assets/img/logo-whatszap.avif" alt="" />
