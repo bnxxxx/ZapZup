@@ -1,33 +1,45 @@
 import "./index.scss"
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
 
 import { Link } from 'react-router-dom';
+import Cabecalho from "../../components/cabecalho";
 
 
 export default function Agendamento() {
+
+
+    const[total,setTotal] = useState(0)
+    const[quantidade, setquantidade] =  useState(0)
+    const[quantidade2, setquantidade2] =  useState(0)
+
+
+    function somarTotal(qtd1, qtd2){
+        const resultado = qtd1 * 100 + qtd2 * 80
+
+
+        setTotal(resultado)
+    }
+
+
+    useEffect(() => {
+        somarTotal(quantidade,quantidade2)
+
+
+    }, [quantidade,quantidade2])
+
+
+    
 
 
     return (
 
         <div className="agendamento">
 
-            <div className="cabecalho">
-
-                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-                <h2>Zap Zup</h2>
-
-                <div className="links">
-                    <Link to="/login" className='links' >Login</Link>
-
-                    <Link to="/" className='links' >Inicio</Link>
-
-                    <Link to="/agendamento" className='links' >Cental de agendamento</Link>
-                </div>
-
-
-            </div>
+            <Cabecalho />
+            
             <div className="titulo">
-                <h2>Central de Agendamento</h2>
+                <h1>Central de Agendamento</h1>
             </div>
 
             <div className="contado">
@@ -43,9 +55,11 @@ export default function Agendamento() {
                 </div>
             </div>
 
+            <div className="container">
+
             <div className="precos">
 
-                <h2 className="titulo">Pacotes</h2>
+                <h1 className="titulo">Pacotes</h1>
 
 
                 <div className="pacotes">
@@ -98,31 +112,32 @@ export default function Agendamento() {
                 <div className="informacoes">
                     <div className="pessoais">
 
-                        <h1>Iformações do Contratante</h1>
+                        <h2 className="t1">Iformações do Contratante</h2>
 
                         <div className="inputs">
 
                             <div className="nome">
                                 <h2>Nome completo</h2>
-                                <input type="text" />
+                                <input type="text" placeholder="digite seu nome" />
                             </div>
 
 
                             <div className="email">
                                 <h2>Email</h2>
-                                <input type="text" />
+                                <input type="text" placeholder="digite seu email"/>
                             </div>
 
 
                             <div className="telefone">
                                 <h2>Telefone</h2>
-                                <input type="text" />
+                                <input type="text"  placeholder="digite seu numero"/>
                             </div>
 
                         </div>
 
 
                     </div>
+
 
 
 
@@ -130,59 +145,74 @@ export default function Agendamento() {
 
                     <div className="evento">
 
-                        <div className="titulo">
+                        <h2 className="t1">Iformações do Eventos</h2>
 
-                            <h1>Iformações do Eventos</h1>
+                        <div className="inputs">
 
-                            <div className="inputs">
-
-                                <div className="recreadores">
-                                    <h2>Quantos recreadores você deseja</h2>
-                                    <input type="text" />
-                                </div>
-
-
-                                <div className="horario">
-                                    <h2>Quantas horas de evento</h2>
-                                    <input type="text" />
-                                </div>
-
-
-                                <div className="data">
-                                    <h2>Data do evento</h2>
-                                    <input type="text" />
-                                </div>
-
+                            <div className="recreadores">
+                                <h2>Quantos recreadores você deseja</h2>
+                                <input type="text" onChange={ e=> setquantidade (e.target.value)}
+                               placeholder="digite aqui" />
                             </div>
 
+
+                            <div className="horario">
+                                <h2>Quantas horas de evento</h2>
+                                <input type="text" onChange={ e=> setquantidade2 (e.target.value)}
+                                 placeholder="digite aqui"  />
+                            </div>
+
+
+                            <div className="data">
+                                <h2>Data do evento</h2>
+                                <input type="date" placeholder="00/00/00"  />
+                            </div>
 
                         </div>
 
 
-                        <div className="s2">
-
-                            <div className="endereco">
-                                <h2>Endereco</h2>
-                                <input type="text" />
-                            </div>
-
-                            <div className="observacoes">
-                                <h2>Observações</h2>
-                                <input type="text" />
-                            </div>
- 
-                            <div className="baladinha check">
-                                <h2>Deseja baladinha</h2>
-                                <input type="checkbox" />
-                            </div>
-
-
-                        </div>
                     </div>
 
 
 
+
+                    <div className="observacoes">
+                        <h2 className="t1">Observações</h2>
+
+
+                        <div className="endereco">
+                            <h2>Endereco</h2>
+                            <input type="text" placeholder="informe o endereço"  />
+                        </div>
+
+                        <div className="observaçoes">
+                            <h2>Observações</h2>
+                            <input type="text" placeholder="digite aqui" />
+                        </div>
+
+                        <div className="baladinha check">
+                            <h2>Deseja baladinha</h2>
+                         <select name="baladinha?" id="">
+                            <option value='sim'>Sim</option>
+                            <option value='sim'>Não</option>
+                         </select>
+                        </div>
+
+                        <div className="concluir">
+                      
+                            {total > 0 && (
+                                <span className="total" > Total: R$ {total.toFixed(2).replace('.', ',')} 
+                                </span>
+                            )}
+                            <button> Concluir </button>
+                        </div>
+                    </div>
                 </div>
+
+
+
+            </div>
+
 
 
 
@@ -198,7 +228,7 @@ export default function Agendamento() {
 
                 <div className="contato">
 
-        <h1>Conheça nossas redes</h1>
+                    <h2>Conheça nossas redes</h2>
 
                     <div className="whats">
                         <img className="logoWhats" src="/assets/img/logo-whatszap.avif" alt="" />

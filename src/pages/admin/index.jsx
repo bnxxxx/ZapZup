@@ -1,30 +1,32 @@
-import "./index.scss"
+
+import "./index.scss";
 import { useState } from "react";
-
 import { Link } from 'react-router-dom';
+import { Swiper, SwiperSlide } from "swiper/react";
+import Sobre from "../Sobre";
+import Cabecalho from "../../components/cabecalho";
 
 
-export default function Admim(){
 
-    <div className="admim">
-
-        <div className="central">
-
-          <div className="perfil">
-
-            <h1>Breno</h1>
-
-          </div>
+export default function Admin (){
 
 
-          <div className="menu">
 
-            <h1>Agendamento</h1>
-          </div>
 
-            
+
+
+    return(
+
+        <div className="admin">
+
+        <Cabecalho/>
+        
+        
+        
         </div>
 
-    </div>
 
+
+
+    )
 }

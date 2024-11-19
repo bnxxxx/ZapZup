@@ -4,20 +4,22 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import Sobre from "../Sobre";
+import Cabecalho from "../../components/cabecalho";
+import Rodape from "../../components/rodape";
 
 
 
 const data = [
 
-    { id: '1', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878009360515/imagem-3.jpg?ex=67245fde&is=67230e5e&hm=8cbf496771ffa90215265f052b0b47379e07c6067cbb0d29f4104641d40350c2&=&format=webp&width=438&height=585' },
-    { id: '2', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503877656903750/imagem-2.jpg?ex=67245fde&is=67230e5e&hm=3500325b59537730a6e2a7531c3cc55152d1e3e15ed6626848127c20d9763b14&=&format=webp&width=438&height=585' },
-    { id: '3', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878671798413/imagem-5.jpg?ex=67245fde&is=67230e5e&hm=637138e9af492b6367d8c1854eb8148801de32cc1aec233028b717c5951cf521&=&format=webp&width=438&height=585' },
+    { id: '1', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878009360515/imagem-3.jpg?ex=6733891e&is=6732379e&hm=59cbb7eee9bfe619aab77fdaea8d2770d14a088b25e5490d09d9104377b48848&=&format=webp&width=503&height=671' },
+    { id: '2', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503877656903750/imagem-2.jpg?ex=6733891e&is=6732379e&hm=820e4165d4ffbcff8a6a6783dbfc9830ccdc8e3397a54c2c2399756982bcb2b9&=&format=webp&width=503&height=671' },
+    { id: '3', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878365745152/imagem-4.jpg?ex=6733891e&is=6732379e&hm=c22778baa0bba9bbaf6e099d3396817478c028aa839e79ea1fea2caa0b495bdb&=&format=webp&width=503&height=671' },
     { id: '4', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321331550650389/imagem-12.jpg?ex=672b5413&is=672a0293&hm=070dc194fd6a378bfff6587e44f78cce582cd69e9ddc31b4c22de32660a6ff2f&=&format=webp&width=503&height=671' },
     { id: '5', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303322411160305664/imagem-16.jpg?ex=672b5515&is=672a0395&hm=0410fad6f9fe196d9b1f93b916fa79972fc06a9cc89583786559e2e5d958ee70&=&format=webp&width=503&height=671' },
-    { id: '6', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878365745152/imagem-4.jpg?ex=67245fde&is=67230e5e&hm=199cda64cd0303f83bbabe0ff9f82ec6ccdc754616e29b1501da195a1b76b467&=&format=webp&width=438&height=58' },
+    { id: '6', image: 'https://media.discordapp.net/attachments/1239531615596707891/1300503878671798413/imagem-5.jpg?ex=6733891e&is=6732379e&hm=c6255af584be69aac6b3fb75af78d08b5190cf5a1b3a1de48647e465c6920336&=&format=webp&width=503&height=671' },
     { id: '7', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321334528606248/imagem-15.jpg?ex=672b5414&is=672a0294&hm=e71b6731b78cdcaf371e6cf66b8da35a22c25d892c1b95d3a49a8a33d7143e1b&=&format=webp&width=503&height=671' },
     { id: '8', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303322412477059103/imagem-17.jpg?ex=672b5515&is=672a0395&hm=f8f3fa361d8beb66628f8aac71b050d0f794822ab2fa09d24df29ed191b64466&=&format=webp&width=503&height=671' },
-    { id: '9', image: 'https://media.discordapp.net/attachments/1239531615596707891/13033213325572874524/imagem-13.jpg?ex=672b5414&is=672a0294&hm=d4a8b7d1d8f306ca664764f4cb5aa48b29ff85e36c8613eb1089b263fc1ecb21&=&format=webp&width=503&height=671' },
+    { id: '9', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303322412477059103/imagem-17.jpg?ex=6733e6d5&is=67329555&hm=ceb7ef297b4bbca247721e15fb2e30dc6d04fa86cf825afd3d1c3c0c098f4250&=&format=webp&width=503&height=671' },
     { id: '10', image: 'https://media.discordapp.net/attachments/1239531615596707891/1303321333656059924/imagem-14.jpg?ex=672b5414&is=672a0294&hm=05c174c8634f985814bf9c519e83f16a9506db36f01a79c6bcf5838fdb02ef1f&=&format=webp&width=503&height=671' }
 ];
 
@@ -29,20 +31,8 @@ export default function Inicio() {
     return (
 
         <div className="Inicio">
-            <div className="cabecalho">
-
-                <img className="logo" src="/assets/img/zap_zup_logo_CURVA.png" alt="" />
-                <h1>Zap Zup</h1>
-            </div>
-
-            <div className="links">
              
-
-                <Link to="/" className='link' >Inicio</Link>
-                <Link to="/login" className="link">Login</Link>
-
-                <Link to="/agendamento" className='link' >Cental de agendamento</Link>
-            </div>
+             <Cabecalho/>
 
 
 
@@ -101,6 +91,7 @@ export default function Inicio() {
 
 
             <Sobre />
+            <Rodape/>
 
         </div>
 

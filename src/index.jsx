@@ -17,7 +17,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Agendamento from './pages/agendamento';
 import Login from './pages/login';
-import Admim from './pages/admin';
+import Admin from './pages/admin';
+
 
 
 
@@ -32,7 +33,8 @@ root.render(
         <Route path='/' element={<Inicio/>} />z
         <Route path='/agendamento' element={<Agendamento/>} />
         <Route path='/login' element={<Login/>} />
-        <Route path='/admim' element={<Admim/>} />
+        <Route path='/admin' element={<Admin/>} />
+      
         
         
       </Routes>

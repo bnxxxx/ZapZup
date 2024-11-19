@@ -2,6 +2,8 @@ import "./index.scss"
 import { useState } from "react";
 
 import { Link } from 'react-router-dom';
+import Rodape from '../../components/rodape'
+import Cabecalho from "../../components/cabecalho";
 
 
 export default function Login() {
@@ -11,6 +13,8 @@ export default function Login() {
 
 
         <div className="login">
+
+            
 
 
             <div className="container">
@@ -35,6 +39,8 @@ export default function Login() {
                 <button className="botao">Entra</button>
             </div>
 
+
+            <Rodape/>
 
 
 

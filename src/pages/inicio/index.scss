@@ -43,9 +43,12 @@
     }
 
     .titulo {
+        z-index: -999;
+
         h2 {
             text-align: center;
             font-size: 34px;
+            margin-top: 120px;
         }
     }
 
@@ -159,8 +162,7 @@
 
 .container{
 
-    background-image: url('https://cdn.discordapp.com/attachments/1239531615596707891/1300529837114392716/fun.jpg?ex=67212c4b&is=671fdacb&hm=309db6bc3931f9b0bd266c1811e675260534a09090ada234075f1472ff606a5b&');
-    background-color:tra;
+   
 
 
 }

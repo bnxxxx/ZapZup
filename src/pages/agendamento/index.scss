@@ -1,28 +1,32 @@
-.agendamento{
+.agendamento {
+
 
 
     background-color: b;
-    .cabecalho{
+
+    .cabecalho {
 
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #f3f3f3;
         height: 110PX;
-        justify-content: space-between;         
+        justify-content: space-between;
 
-        h1{
+        h1 {
             margin: 0px;
-            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff);
+            /* Altere as cores conforme necessário */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 40px;
         }
-        .logo{
+
+        .logo {
             width: 75px;
         }
 
-        .links{
+        .links {
             display: flex;
             align-items: center;
             margin: 20px;
@@ -31,305 +35,310 @@
             font-size: 25px;
             color: black;
         }
-        
-        
+
+
     }
-    .titulo{
+
+    .titulo {
         text-align: center;
         margin-top: 90px;
     }
-    
-    .contado{
+
+    .contado {
         display: flex;
         justify-content: space-between;
         margin: 20px;
         margin-top: 0px;
 
-        .whats{
-            display:flex ;
+        .whats {
+            display: flex;
         }
 
-        .insta{
-            display:flex ;
+        .insta {
+            display: flex;
         }
 
         p {}
 
-        .logoWhats{
+        .logoWhats {
             width: 50px;
             height: 50px;
         }
 
-        
-        .logoInsta{
+
+        .logoInsta {
             width: 50px;
             height: 50px;
         }
 
     }
+    
+    .container{
 
-    .pacotes{
-
-        display: flex;
-        justify-content: space-evenly;
-        margin: 0px;
-        padding: 0px;
-
-        h1{
-            margin-bottom: 30px;
-        }
-        
-        .classico{
-            box-shadow: 0 4px 8px rgba(0, 0, 0,);
-            width: 280px;
-            height: 180px;
-            padding: 10px;
-            background: linear-gradient(45deg, #95FF8F, #4ECAFF); 
-
-            h1{
-                color: #1240F4;
-            }
-
-            p{
-                font-size: 20px;
-            }
-
-            &:hover {
-                scale: 110%;
-                transition: 0.7s;
-                }
-            
-            .preco{
-                margin-left: 180px;
-                margin-bottom: 40 px;
-                width: 100px;
-                height: 35px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                
-                box-shadow: 0 4px 8px rgba(0, 0, 0,);
-                border-radius: 30px;
-                background-color: #1240F4;
-
-
-                p{
-                    text-align: center;
-                    font-size: 20px;
-                }
-            }
-
-        }
-      
-        .simples{
-            box-shadow: 0 4px 8px rgba(0, 0, 0,);
-            width: 280px;
-            height: 180px;
-            padding: 10px;
-            background: linear-gradient(45deg, #95FF8F, #4ECAFF);
-
-            h1{
-                color: #1240F4;
-            }
-            p{
-                font-size: 20px;
-            }
-
-
-
-            &:hover {
-                scale: 110%;
-                transition: 0.7s;
-                }
-            
-            .preco{
-                margin-left: 180px;
-                margin-bottom: 40 px;
-                width: 100px;
-                height: 35px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                
-                box-shadow: 0 4px 8px rgba(0, 0, 0,);
-                border-radius: 30px;
-                background-color: #1240F4;
-
-                p{
-                    text-align: center;
-                    font-size: 20px;
-                }
-            }
-
-        }
-
-        .extra{
-            box-shadow: 0 4px 8px rgba(0, 0, 0,);
-            width: 280px;
-            height: 180px;
-            padding: 10px;
-            background: linear-gradient(45deg, #95FF8F, #4ECAFF); 
-
-            h1{
-                color: #1240F4;
-            }
-
-            p{
-                font-size: 20px;
-            }
-
-            &:hover {
-                scale: 110%;
-                transition: 0.7s;
-                }
-            
-            .preco{
-                margin-left: 180px;
-                margin-bottom: 40 px;
-                width: 100px;
-                height: 35px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                
-                box-shadow: 0 4px 8px rgba(0, 0, 0,);
-                border-radius: 30px;
-                background-color: #1240F4;
-
-
-                p{
-                    text-align: center;
-                    font-size: 20px;
-                }
-            }
-
-        }
-
-        .adicionais{
-            box-shadow: 0 4px 8px rgba(0, 0, 0,);
-            width: 280px;
-            height: 180px;
-            padding: 10px;
-            background: linear-gradient(45deg, #95FF8F, #4ECAFF);
-
-            h1{
-                color: #1240F4;
-            }
-
-            &:hover {
-                scale: 110%;
-                transition: 0.7s;
-                }
-        }
-    }
-
-    .informacoes{
-        display: flex;
-        justify-content: space-evenly;
-
-        .pessoais {
-            display: flex;                  
-            flex-direction: column;          
-            justify-content: space-evenly;   
-            align-items: center;             
-            margin: 0px;
-                             
-        }
-        
-        .pessoais .nome,
-        .pessoais .email,
-        .pessoais .telefone {
-            border: solid;
-            width: 350px;
-            border-radius: 20px;
-            padding: 10px;
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-            margin-bottom: 30px;
-            position: relative;             
-        }
-        
-        .pessoais input {
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-            
-                border: none;
-                border-bottom: 1px solid black;
-                width: 350px;
-                
-                
-        }
-
-
-        .evento {
-            display: flex;                  
-                
-            justify-content: space-evenly;   
-            align-items: center;             
-            margin: 30px;
-                             
-        }
-
-
-        
-        .evento .recreadores,
-        .evento .horario,
-        .evento .data {
-            border: solid;
-            width: 350px;
-            border-radius: 20px;
-            padding: 10px;
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-            margin-bottom: 30px;             /* Pode remover, pois o espaçamento será controlado pelo Flexbox */
-        }
-        
-        .evento input {
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-            
-            border: none;
-            border-bottom: 1px solid black;
-            width: 350px;
-        }
-
-        .titulo{
+       
+        .pacotes {
+    
             display: flex;
-            flex-direction: column;
-        }
-
-        .s2{
-            display: flex;                  
-            flex-direction: column;          
-            justify-content: space-evenly;   
-            align-items: center;             
+            justify-content: space-evenly;
             margin: 0px;
-                             
+            padding: 0px;
+           
+    
+    
+            h1 {
+                margin-bottom: 30px;
+            }
+    
+            .classico {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                width: 280px;
+                height: 180px;
+                padding: 10px;
+                background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+    
+                h1 {
+                    color: #1240F4;
+                }
+    
+                p {
+                    font-size: 20px;
+                }
+    
+                &:hover {
+                    scale: 110%;
+                    transition: 0.7s;
+                }
+    
+                .preco {
+                    margin-left: 180px;
+                    margin-bottom: 40 px;
+                    width: 100px;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                    border-radius: 30px;
+                    background-color: #1240F4;
+    
+    
+                    p {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                }
+    
+            }
+    
+            .simples {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                width: 280px;
+                height: 180px;
+                padding: 10px;
+                background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+    
+                h1 {
+                    color: #1240F4;
+                }
+    
+                p {
+                    font-size: 20px;
+                }
+    
+    
+    
+                &:hover {
+                    scale: 110%;
+                    transition: 0.7s;
+                }
+    
+                .preco {
+                    margin-left: 180px;
+                    margin-bottom: 40 px;
+                    width: 100px;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                    border-radius: 30px;
+                    background-color: #1240F4;
+    
+                    p {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                }
+    
+            }
+    
+            .extra {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                width: 280px;
+                height: 180px;
+                padding: 10px;
+                background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+    
+                h1 {
+                    color: #1240F4;
+                }
+    
+                p {
+                    font-size: 20px;
+                }
+    
+                &:hover {
+                    scale: 110%;
+                    transition: 0.7s;
+                }
+    
+                .preco {
+                    margin-left: 180px;
+                    margin-bottom: 40 px;
+                    width: 100px;
+                    height: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+    
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                    border-radius: 30px;
+                    background-color: #1240F4;
+    
+    
+                    p {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                }
+    
+            }
+    
+            .adicionais {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, );
+                width: 280px;
+                height: 180px;
+                padding: 10px;
+                background: linear-gradient(45deg, #95FF8F, #4ECAFF);
+    
+                h1 {
+                    color: #1240F4;
+                }
+    
+                &:hover {
+                    scale: 110%;
+                    transition: 0.7s;
+                }
+            }
         }
-        
-        .s2 .observacoes,
-        .s2 .baladinha,
-        .s2 .endereco {
-            border: solid;
-            width: 350px;
-            border-radius: 20px;
-            padding: 10px;
-            margin: 20px;
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-      
-        }
-        
-        .s2 input {
-            background: linear-gradient(45deg, #FFC17B, #FFF70B);
-            
-            border: none;
-            border-bottom: 1px solid black;
-            width: 350px;
+    
+        .informacoes {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 60px;
+    
+    
+    
+            .t1 {
+                text-align: center;
+                font-size: 35px;
+            }
+    
+            .pessoais {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                margin: 0px;
+                margin-bottom: 50px;
+    
+            }
+    
+            .pessoais .nome,
+            .pessoais .email,
+            .pessoais .telefone {
+                border: solid;
+                width: 350px;
+                border-radius: 20px;
+                padding: 10px;
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+                margin-bottom: 30px;
+                position: relative;
+            }
+    
+            .pessoais input {
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+    
+                border: none;
+                border-bottom: 1px solid black;
+                width: 350px;
+    
+    
+            }
+    
+    
+            .evento {}
+    
+    
+    
+            .evento .recreadores,
+            .evento .horario,
+            .evento .data {
+                border: solid;
+                width: 350px;
+                border-radius: 20px;
+                padding: 10px;
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+                margin-bottom: 30px;
+                /* Pode remover, pois o espaçamento será controlado pelo Flexbox */
+            }
+    
+            .evento input {
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+    
+                border: none;
+                border-bottom: 1px solid black;
+                width: 350px;
+            }
+    
+    
+            .observacoes {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .observacoes .observaçoes,
+            .observacoes .baladinha,
+            .observacoes .endereco {
+                border: solid;
+                width: 350px;
+                border-radius: 20px;
+                padding: 10px;
+                margin-bottom: 30px;
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+    
+            }
+    
+            .observacoes input {
+                background: linear-gradient(45deg, #FFC17B, #FFF70B);
+    
+                border: none;
+                border-bottom: 1px solid black;
+                width: 350px;
+            }
+    
+    
+    
+    
         }
 
-        
-        
-        
     }
 
 
-    .rodaPe{
+    .rodaPe {
         display: flex;
         flex-direction: row;
         gap: 20%;
@@ -343,13 +352,11 @@
         // height: 110PX;
 
 
-        .rodape-titulo{
+        .rodape-titulo {
             align-self: center;
         }
 
-        .contato{
-            
-        }
+        .contato {}
 
     }
 
@@ -365,33 +372,57 @@
         width: 75px;
     }
 
-    .whats{
-        display:flex ;
+    .whats {
+        display: flex;
         flex-direction: row;
         margin-top: 15px;
     }
 
-    .insta{
-        display:flex ;
+    .insta {
+        display: flex;
         flex-direction: row;
         margin-top: 5px;
     }
 
     p {}
 
-    .logoWhats{
+    .logoWhats {
         width: 50px;
         height: 50px;
     }
 
-    
-    .logoInsta{
+
+    .logoInsta {
         width: 60px;
     }
 
-.check{
-    border: none;
-}
+    .check {
+        border: none;
+    }
+
+    .concluir {
+
+        
+        display: flex;
+        flex-direction: column;
+        
+        .total{
+           
+            
+            font-size: 22px;
+        }
+        button {
+
+            background-color: #01a6ff;
+            height: 50px;
+            width: 150px;
+            // margin-left: 250px;
+            font-size: 20px;
+            border-radius: 30px;
+        }
+
+
+    }
 
 
 }
