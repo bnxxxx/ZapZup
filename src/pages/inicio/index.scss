@@ -7,25 +7,27 @@
         flex: 1;
     }
 
-    .cabecalho {
+    cabecalho{
+
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: #f3f3f3;
         height: 110PX;
+        justify-content: space-between;         
 
-        h1 {
+        h1{
             margin: 0px;
-            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff);
+            background: linear-gradient(90deg, #f8ff1ef0, #01a6ff); /* Altere as cores conforme necessário */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 40px;
         }
-
-        .logo {
+        .logo{
             width: 75px;
         }
 
+<<<<<<< HEAD
         
         
     }
@@ -49,13 +51,30 @@
             text-align: center;
             font-size: 34px;
             margin-top: 120px;
+=======
+        .links{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: 25px;
+            color: black;
+>>>>>>> e99752726de4e14e5ad26930bf6962909b7dc679
         }
+        
+        
     }
-
-    .contado {
+    .titulo{
+        text-align: center;
+        margin-top: 90px;
+    }
+    
+    .contado{
         display: flex;
         justify-content: space-between;
-        margin: 70px;
+        margin: 20px;
+        margin-top: 0px;
 
         .whats{
             display:flex ;
@@ -77,6 +96,7 @@
             width: 50px;
             height: 50px;
         }
+
     }
 
     .tudo{

@@ -152,14 +152,14 @@ export default function Agendamento() {
                             <div className="recreadores">
                                 <h2>Quantos recreadores você deseja</h2>
                                 <input type="text" onChange={ e=> setquantidade (e.target.value)}
-                               placeholder="digite aqui" />
+                                value={quantidade} placeholder="digite aqui" />
                             </div>
 
 
                             <div className="horario">
                                 <h2>Quantas horas de evento</h2>
                                 <input type="text" onChange={ e=> setquantidade2 (e.target.value)}
-                                 placeholder="digite aqui"  />
+                                value={quantidade2} placeholder="digite aqui"  />
                             </div>
 
 

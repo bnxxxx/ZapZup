@@ -4,8 +4,12 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from "swiper/react";
 import Sobre from "../Sobre";
+<<<<<<< HEAD
 import Cabecalho from "../../components/cabecalho";
 import Rodape from "../../components/rodape";
+=======
+import Cabecalho from "../../components";
+>>>>>>> e99752726de4e14e5ad26930bf6962909b7dc679
 
 
 
@@ -30,6 +34,7 @@ export default function Inicio() {
 
     return (
 
+<<<<<<< HEAD
         <div className="Inicio">
              
              <Cabecalho/>
@@ -37,6 +42,13 @@ export default function Inicio() {
 
 
             <div className="titulo">                                                                                                                                                                    
+=======
+        <div className="agendamento">
+
+            <Cabecalho />
+
+            <div className="titulo">
+>>>>>>> e99752726de4e14e5ad26930bf6962909b7dc679
                 <h2>Zap Zup Recreação</h2>
             </div>
 
