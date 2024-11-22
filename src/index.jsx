@@ -18,6 +18,7 @@ import 'swiper/css/scrollbar';
 import Agendamento from './pages/agendamento';
 import Login from './pages/login';
 import Admin from './pages/admin';
+import Comeco from './pages/inicio';
 
 
 
@@ -30,7 +31,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>  
-        <Route path='/' element={<Inicio/>} />z
+        <Route path='/' element={<Comeco/>} />z
         <Route path='/agendamento' element={<Agendamento/>} />
         <Route path='/login' element={<Login/>} />
         <Route path='/admin' element={<Admin/>} />
