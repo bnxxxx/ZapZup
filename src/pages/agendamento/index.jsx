@@ -68,7 +68,7 @@ export default function Agendamento() {
 
                             <p>4 horas <br /> 2 Recreadores</p>
                             <div className="preco">
-                                <p>550R$</p>
+                                <p>520R$</p>
 
                             </div>
 
@@ -77,9 +77,9 @@ export default function Agendamento() {
                         <div className="simples">
                             <h2>Pacote Simples </h2>
 
-                            <p>4 horas <br /> 2 Recreadores</p>
+                            <p>4 horas <br /> 1 Recreadores</p>
                             <div className="preco">
-                                <p>380R$</p>
+                                <p>42   0R$</p>
 
                             </div>
 
@@ -87,9 +87,9 @@ export default function Agendamento() {
                         <div className="extra">
                             <h2>Pacote Extra </h2>
 
-                            <p>4 horas <br /> 2 Recreadores</p>
+                            <p>5 horas <br /> 3 Recreadores</p>
                             <div className="preco">
-                                <p>650R$</p>
+                                <p>700R$</p>
 
                             </div>
 
